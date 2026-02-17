@@ -142,7 +142,7 @@ and $\theta = 0.65$ (empirically determined).
 
 The framework follows a **modular three-tier architecture**:
 
-![System Architecture](fig_architecture.png)
+<img width="2823" height="2023" alt="fig_architecture" src="https://github.com/user-attachments/assets/981e9a01-5e2f-4536-8e6c-732564bf3552" />
 *Fig. 1 — Three-tier architecture of the proposed AI-driven FIR management framework consisting of presentation, application, and data layers.*
 
 ### 4.1 Overall System Design
@@ -233,7 +233,7 @@ Raw FIR Text
 
 ### 5.4 Feature Importance Analysis
 
-![Feature Importance](fig3_feature_importance.png)
+<img width="1785" height="1035" alt="fig3_feature_importance" src="https://github.com/user-attachments/assets/4ab3b235-8170-4c70-8277-e3ec01b3611d" />
 *Fig. 2 — Top 20 feature importance scores from the Random Forest classifier.*
 
 Top influential features include crime-specific keywords:
@@ -362,7 +362,7 @@ Pairwise similarity has **O(n²)** complexity. For large deployments:
 
 ### 8.3 Priority Prediction Performance
 
-![Model Comparison](fig5_model_comparison.png)
+<img width="1936" height="887" alt="fig5_model_comparison" src="https://github.com/user-attachments/assets/f61c876c-150d-4ed1-b9e3-3b30affb5085" />
 *Fig. 3 — Performance comparison across evaluated classifiers.*
 
 | Model | Accuracy | F1 | Precision | Recall |
@@ -375,10 +375,10 @@ Pairwise similarity has **O(n²)** complexity. For large deployments:
 
 ### 8.4 Confusion Matrix and ROC Analysis
 
-![ROC Curves](fig2_roc_curves.png)
+<img width="2086" height="885" alt="fig2_roc_curves" src="https://github.com/user-attachments/assets/ec80250c-1fb0-4ce5-964e-4f4dbad0bd60" />
 *Fig. 4 — ROC curves for multi-class priority classification under one-vs-rest evaluation.*
 
-![Confusion Matrices](fig1_confusion_matrices.png)
+<img width="2638" height="925" alt="fig1_confusion_matrices" src="https://github.com/user-attachments/assets/5c79d25d-dc97-4f9b-a55f-eb9a17a7534e" />
 *Fig. 5 — Confusion matrices for the evaluated classifiers on the test dataset.*
 
 - Most misclassifications occur between **Medium** and **High** priority classes (semantic overlap)
@@ -386,7 +386,7 @@ Pairwise similarity has **O(n²)** complexity. For large deployments:
 
 ### 8.5 Bias Detection Results
 
-![Bias Analysis](fig4_bias_analysis.png)
+<img width="2236" height="883" alt="fig4_bias_analysis" src="https://github.com/user-attachments/assets/3fd80597-fda6-4642-8f17-9de1fb7655b4" />
 *Fig. 6 — Priority distribution across demographic groups confirming absence of systematic bias.*
 
 **Disparate Impact Ratio (DIR) values — all within [0.80, 1.25] ✅**
@@ -403,7 +403,7 @@ Pairwise similarity has **O(n²)** complexity. For large deployments:
 
 ### 8.6 Paradox Detection Results
 
-![Paradox Detection](fig6_paradox_detection.png)
+<img width="2236" height="885" alt="fig6_paradox_detection" src="https://github.com/user-attachments/assets/9054e076-9f4b-4528-a72a-99a50ddf2419" />
 *Fig. 7 — Cosine similarity distribution showing 26,674 candidate pairs in the high-similarity zone (sim ≥ 0.65), of which 8,415 are confirmed paradox pairs with conflicting priority labels, at threshold θ = 0.65.*
 
 | Metric | Value |
